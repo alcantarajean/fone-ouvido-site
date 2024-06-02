@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+
+:root{
+
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgba(0, 0, 0, 0.829);
+}
+
+header {
+    background-color: #218838;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: white 0px 0px 10px;
+    border-radius: 10px 10px;
+    
+}
+
+header h1 {
+    margin: 0;
+    box-shadow: white 5px;
+}
+
+nav :hover{
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.container li{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+              
+}
+
+
+ .container li:hover{
+      font-size: 25px;
+      transition: 0.4s;
+ }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+a.buy-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+a.buy-button:hover {
+    background-color: #218838;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    
+    padding: 10px ;
+
+}
+
+#foto1{
+    padding: auto;
+    height: 300px;
+    width: 300;
+}
+
+
+.gallery img {
+    max-width: 30%;
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #218838;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: white 0px 0px 10px;
+    border-radius: 10px;
+}
+
+.boton2{
+    text-align:center;
+    margin: auto;
+}
